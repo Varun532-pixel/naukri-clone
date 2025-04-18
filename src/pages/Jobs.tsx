@@ -139,7 +139,7 @@ const Jobs = () => {
                       </h3>
                       <div className="mt-2 flex items-center text-gray-500">
                         <BuildingIcon className="h-5 w-5 mr-2" />
-                        <span>{job.company.name}</span>
+                         <span>{job.company?.name||"unknown"}</span>
                       </div>
                       <div className="mt-2 flex items-center text-gray-500">
                         <MapPinIcon className="h-5 w-5 mr-2" />
